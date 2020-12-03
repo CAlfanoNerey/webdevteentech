@@ -40,6 +40,15 @@ h1{
   letter-spacing: 1px;
 }
 
+h2{
+  font-size: 190%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+
+}
+
 ul{
   list-style: none;
 }
@@ -90,13 +99,14 @@ ul{
 .btn-ghost:visited{
   border-radius: 200px;
   border: 1px solid rgb(200, 90, 0);
-  
+  color: #e67e22
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
   background-color: rgb(200, 90, 0);
   border: 1px solid rgb(200, 90, 0);
+  color: white;
 }
 
 /*selector*/
@@ -161,6 +171,7 @@ ul{
 
 .section-plans{
   background-color: rgb(212, 212, 212);
+  padding: 20px;
 }
 
 .plan-box{
@@ -170,7 +181,38 @@ ul{
   margin-left: 5%;
   /* x, y, then blur  and color*/
   box-shadow: 0 2px 2px rgb(151, 151, 151);
-  padding-left: 5%;
+
 }
 
+.plan-box div:first-child{
+  background-color: rgb(160, 160, 160);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
+.plain-box div:last-child{
+  text-align: center;
+  border: none;
+}
+
+.plan-box div{
+  padding: 15px;
+  border-bottom: 1px solid rgb(216,216,216);
+}
+
+.plan-price{
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #e67e22
+}
+
+.plan-price span{
+  font-size: 30%;
+  font-weight: 300;
+  color: #e67e22
+}
+
+.plan-price-meal{
+  font-size: 80%;
+}
