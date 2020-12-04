@@ -182,10 +182,26 @@
         </div>
         <div class="row">
           <div class="col span-1-of-3">
-            <label for="name">Name</label>
+            <label for="find-us">How did you find us?</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <!-- select is a dropdown menu -->
+            <select name="find-us" id="find-us">
+              <option hidden disabled selected value >-- Select an Option --</option>
+              <option value="Friends">Friends</option>
+              <option value="Search engine">Search Engine</option>
+              <option value="Ad">Ad</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="find-us">Newsletter</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="checkbox" name="news" id="news" checked> Yes, please!
+           
           </div>
         </div>
       </form>
